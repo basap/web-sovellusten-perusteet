@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tapahtumahubi – Ilmoittaudu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Etusivu</a></li>
+      <li><a href="tapahtumat.html">Tapahtumat</a></li>
+      <li><a href="ilmoittaudu.html">Ilmoittaudu</a></li>
+      <li><a href="galleria.html">Galleria</a></li>
+      <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+  </nav>
+<header>
+    <h1>Ilmoittautumislomake</h1>
+</header>
+<main>
+    <form>
+      <label for="nimi">Nimi:</label><br>
+      <input type="text" id="nimi" name="nimi" required><br><br>
+
+      <label for="email">Sähköposti:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="tapahtuma">Valitse tapahtuma:</label><br>
+      <select id="tapahtuma" name="tapahtuma">
+        <option value="orimattila">Eukonkanto - Orimattila</option>
+        <option value="utsjoki">Kauneimmat joululaulut - Utsjoki</option>
+      </select><br><br>
+
+      <label for="lisatiedot">Lisätiedot:</label><br>
+      <textarea id="lisatiedot" name="lisatiedot" rows="4" cols="40"></textarea><br><br>
+
+      <button type="submit">Lähetä</button>
+    </form>
+</main>
+<footer>
+    <p>Copyright Tapahtumahubi</p>
+</footer>
+</body>
+</html>
